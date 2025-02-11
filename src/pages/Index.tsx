@@ -7,26 +7,26 @@ import { motion } from "framer-motion";
 const Index = () => {
   const teamMembers = [
     {
-      name: "Team Member 1",
-      role: "Role 1",
+      name: "Morgan",
+      role: "Front End Developer",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?fit=crop&w=800&h=800",
       bio: "Brief description about team member 1 and their contributions to the project."
     },
     {
-      name: "Team Member 2",
-      role: "Role 2",
+      name: "Sai",
+      role: "Back End Developer",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?fit=crop&w=800&h=800",
       bio: "Brief description about team member 2 and their contributions to the project."
     },
     {
-      name: "Team Member 3",
-      role: "Role 3",
+      name: "Cat Tien Le",
+      role: "Full Stack Developer",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&w=800&h=800",
       bio: "Brief description about team member 3 and their contributions to the project."
     },
     {
-      name: "Team Member 4",
-      role: "Role 4",
+      name: "Cyrus",
+      role: "Full Stack Developer",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?fit=crop&w=800&h=800",
       bio: "Brief description about team member 4 and their contributions to the project."
     }
@@ -45,7 +45,7 @@ const Index = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            Project Name
+            Movie Store
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -83,7 +83,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Features & Functionality</h2>
           <div className="space-y-8">
             <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Feature 1</h3>
+              <h3 className="text-xl font-semibold mb-4"></h3>
               <p className="text-gray-600">Detailed description of feature 1 and its benefits.</p>
             </Card>
             <Card className="p-6">
