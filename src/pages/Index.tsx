@@ -83,16 +83,16 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Features & Functionality</h2>
           <div className="space-y-8">
             <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4"></h3>
-              <p className="text-gray-600">Detailed description of feature 1 and its benefits.</p>
+              <h3 className="text-xl font-semibold mb-4">Smart Search Function</h3>
+              <p className="text-gray-600">Our intuitive search feature allows users to quickly find their desired movies using filters and search parameters. No more endless scrolling - simply type in the movie title, genre, or release date to find exactly what you're looking for. The search updates in real-time, making it effortless to discover and book tickets for your next movie experience.</p>
             </Card>
             <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Feature 2</h3>
-              <p className="text-gray-600">Detailed description of feature 2 and its benefits.</p>
+              <h3 className="text-xl font-semibold mb-4">Order Tracking System</h3>
+              <p className="text-gray-600">Create your personal account to gain access to our comprehensive order tracking system. Keep track of all your past and upcoming movie tickets, receive booking confirmations, and get timely reminders before showtime. Your account dashboard provides a clear overview of your movie-going history and current bookings.</p>
             </Card>
             <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Feature 3</h3>
-              <p className="text-gray-600">Detailed description of feature 3 and its benefits.</p>
+              <h3 className="text-xl font-semibold mb-4">Movie Reviews & Ratings</h3>
+              <p className="text-gray-600">Share your movie-watching experience with our community through our review system. Rate movies, write detailed reviews, and help other moviegoers make informed decisions. Browse through authentic user reviews and ratings before booking your tickets to ensure you choose the perfect movie for your taste.</p>
             </Card>
           </div>
         </div>
