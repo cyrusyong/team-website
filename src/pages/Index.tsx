@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { TeamMember } from "@/components/TeamMember";
 import { Card } from "@/components/ui/card";
 import { motion } from "framer-motion";
+import { Layout, Film, ShoppingCart, Clock, UserCircle } from "lucide-react";
 
 const Index = () => {
   const teamMembers = [
@@ -82,17 +83,54 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Features & Functionality</h2>
           <div className="space-y-8">
-            <Card className="p-6 bg-secondary">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Smart Search Function</h3>
-              <p className="text-muted-foreground">Our intuitive search feature allows users to quickly find their desired movies using filters and search parameters. No more endless scrolling - simply type in the movie title, genre, or release date to find exactly what you're looking for. The search updates in real-time, making it effortless to discover and book tickets for your next movie experience.</p>
+            <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
+              <div className="flex items-start space-x-4">
+                <Layout className="w-6 h-6 text-foreground" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4 text-foreground">About Page</h3>
+                  <p className="text-muted-foreground">Learn more about our platform, our mission to provide seamless movie ticket booking experiences, and how we're revolutionizing the way you enjoy cinema. Discover our story and what makes us unique in the movie ticketing industry.</p>
+                </div>
+              </div>
             </Card>
-            <Card className="p-6 bg-secondary">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Order Tracking System</h3>
-              <p className="text-muted-foreground">Create your personal account to gain access to our comprehensive order tracking system. Keep track of all your past and upcoming movie tickets, receive booking confirmations, and get timely reminders before showtime. Your account dashboard provides a clear overview of your movie-going history and current bookings.</p>
+
+            <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
+              <div className="flex items-start space-x-4">
+                <Film className="w-6 h-6 text-foreground" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4 text-foreground">Movies List</h3>
+                  <p className="text-muted-foreground">Browse our extensive collection of movies, from latest releases to timeless classics. Use our advanced filtering system to find movies by genre, release date, or ratings. View detailed information, trailers, and user reviews for each movie.</p>
+                </div>
+              </div>
             </Card>
-            <Card className="p-6 bg-secondary">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Movie Reviews & Ratings</h3>
-              <p className="text-muted-foreground">Share your movie-watching experience with our community through our review system. Rate movies, write detailed reviews, and help other moviegoers make informed decisions. Browse through authentic user reviews and ratings before booking your tickets to ensure you choose the perfect movie for your taste.</p>
+
+            <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
+              <div className="flex items-start space-x-4">
+                <ShoppingCart className="w-6 h-6 text-foreground" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4 text-foreground">Cart Page</h3>
+                  <p className="text-muted-foreground">Review your selected movie tickets, choose your preferred showtime and seating options, and proceed to a secure checkout. Our cart system provides real-time updates and maintains your selections until you're ready to complete your purchase.</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
+              <div className="flex items-start space-x-4">
+                <Clock className="w-6 h-6 text-foreground" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4 text-foreground">Past Orders</h3>
+                  <p className="text-muted-foreground">Access your complete order history, view past movie tickets, and download digital tickets whenever needed. Keep track of your movie-watching journey and easily reference your previous bookings for future purchases.</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
+              <div className="flex items-start space-x-4">
+                <UserCircle className="w-6 h-6 text-foreground" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-4 text-foreground">Login / Sign Up</h3>
+                  <p className="text-muted-foreground">Create your personal account to unlock the full potential of our platform. Enjoy features like order tracking, saved preferences, and the ability to leave movie reviews. Simple and secure authentication process for a hassle-free experience.</p>
+                </div>
+              </div>
             </Card>
           </div>
         </div>
