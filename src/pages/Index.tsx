@@ -16,13 +16,13 @@ const Index = () => {
       name: "Sai",
       role: "Back End Developer",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?fit=crop&w=800&h=800",
-      bio: "Brief description about team member 2 and their contributions to the project."
+      bio: "I was involved with creating functionality for users to add, edit, remove, and view reviews. I also created a shopping cart and an orders page, which allowed users to add movies to their cart, view and clear the cart, purchase movis, as well as view their orders."
     },
     {
-      name: "Cat Tien Le",
+      name: "Cat Tien",
       role: "Full Stack Developer",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&w=800&h=800",
-      bio: "Brief description about team member 3 and their contributions to the project."
+      bio: "I was involved with creating the movie listing page and a search function. I also created the initial admin GUI and let admins edit movies. I had to implement an email feature so that reset password can function properly"
     },
     {
       name: "Cyrus",
@@ -105,7 +105,7 @@ const Index = () => {
           <div className="space-y-12">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold mb-4 text-foreground">Research & Planning</h3>
+                <h3 className="text-xl font-semibold mb-4 text-foreground"></h3>
                 <p className="text-muted-foreground">Description of the research and planning phase.</p>
               </div>
               <div className="flex-1">
