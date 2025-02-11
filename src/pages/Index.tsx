@@ -53,7 +53,7 @@ const Index = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-gray-600 mb-8"
           >
-            A comprehensive description of your project and its main objectives. Highlight the key features and value proposition.
+            Welcome to our movie ordering platform where users can easily search and purchase tickets for their favorite movies. Create an account to track your orders and share your movie experiences by leaving reviews. Your one-stop destination for a seamless movie ticket booking experience.
           </motion.p>
         </div>
       </section>
