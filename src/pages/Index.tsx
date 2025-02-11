@@ -33,7 +33,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
       <Header />
       
       {/* Hero Section */}
@@ -43,7 +43,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-bold mb-6"
+            className="text-4xl md:text-5xl font-bold mb-6 text-foreground"
           >
             Movie Store
           </motion.h1>
@@ -51,7 +51,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg text-gray-600 mb-8"
+            className="text-lg text-muted-foreground mb-8"
           >
             Below is our movie ordering platform outline. It is a website where users can easily search and purchase tickets for their favorite movies. Create an account to track their orders and share their movie experiences by leaving reviews. A one-stop destination for a seamless movie ticket booking experience.
           </motion.p>
@@ -59,9 +59,9 @@ const Index = () => {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="py-20 bg-white px-6">
+      <section id="team" className="py-20 bg-secondary px-6">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Team</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
               <motion.div
@@ -78,35 +78,35 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 bg-gray-50 px-6">
+      <section id="features" className="py-20 bg-background px-6">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-center mb-12">Features & Functionality</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Features & Functionality</h2>
           <div className="space-y-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Smart Search Function</h3>
-              <p className="text-gray-600">Our intuitive search feature allows users to quickly find their desired movies using filters and search parameters. No more endless scrolling - simply type in the movie title, genre, or release date to find exactly what you're looking for. The search updates in real-time, making it effortless to discover and book tickets for your next movie experience.</p>
+            <Card className="p-6 bg-secondary">
+              <h3 className="text-xl font-semibold mb-4 text-foreground">Smart Search Function</h3>
+              <p className="text-muted-foreground">Our intuitive search feature allows users to quickly find their desired movies using filters and search parameters. No more endless scrolling - simply type in the movie title, genre, or release date to find exactly what you're looking for. The search updates in real-time, making it effortless to discover and book tickets for your next movie experience.</p>
             </Card>
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Order Tracking System</h3>
-              <p className="text-gray-600">Create your personal account to gain access to our comprehensive order tracking system. Keep track of all your past and upcoming movie tickets, receive booking confirmations, and get timely reminders before showtime. Your account dashboard provides a clear overview of your movie-going history and current bookings.</p>
+            <Card className="p-6 bg-secondary">
+              <h3 className="text-xl font-semibold mb-4 text-foreground">Order Tracking System</h3>
+              <p className="text-muted-foreground">Create your personal account to gain access to our comprehensive order tracking system. Keep track of all your past and upcoming movie tickets, receive booking confirmations, and get timely reminders before showtime. Your account dashboard provides a clear overview of your movie-going history and current bookings.</p>
             </Card>
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Movie Reviews & Ratings</h3>
-              <p className="text-gray-600">Share your movie-watching experience with our community through our review system. Rate movies, write detailed reviews, and help other moviegoers make informed decisions. Browse through authentic user reviews and ratings before booking your tickets to ensure you choose the perfect movie for your taste.</p>
+            <Card className="p-6 bg-secondary">
+              <h3 className="text-xl font-semibold mb-4 text-foreground">Movie Reviews & Ratings</h3>
+              <p className="text-muted-foreground">Share your movie-watching experience with our community through our review system. Rate movies, write detailed reviews, and help other moviegoers make informed decisions. Browse through authentic user reviews and ratings before booking your tickets to ensure you choose the perfect movie for your taste.</p>
             </Card>
           </div>
         </div>
       </section>
 
       {/* Design Process Section */}
-      <section id="process" className="py-20 bg-white px-6">
+      <section id="process" className="py-20 bg-secondary px-6">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-center mb-12">Design Process</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Design Process</h2>
           <div className="space-y-12">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold mb-4">Research & Planning</h3>
-                <p className="text-gray-600">Description of the research and planning phase.</p>
+                <h3 className="text-xl font-semibold mb-4 text-foreground">Research & Planning</h3>
+                <p className="text-muted-foreground">Description of the research and planning phase.</p>
               </div>
               <div className="flex-1">
                 <img 
@@ -119,8 +119,8 @@ const Index = () => {
             
             <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold mb-4">Design & Development</h3>
-                <p className="text-gray-600">Description of the design and development process.</p>
+                <h3 className="text-xl font-semibold mb-4 text-foreground">Design & Development</h3>
+                <p className="text-muted-foreground">Description of the design and development process.</p>
               </div>
               <div className="flex-1">
                 <img 
@@ -135,11 +135,11 @@ const Index = () => {
       </section>
 
       {/* Demo Section */}
-      <section id="demo" className="py-20 bg-gray-50 px-6">
+      <section id="demo" className="py-20 bg-background px-6">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold mb-12">Video Demonstration</h2>
-          <div className="aspect-video bg-black/5 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Video demonstration will be added here</p>
+          <h2 className="text-3xl font-bold mb-12 text-foreground">Video Demonstration</h2>
+          <div className="aspect-video bg-secondary rounded-lg flex items-center justify-center">
+            <p className="text-muted-foreground">Video demonstration will be added here</p>
           </div>
         </div>
       </section>
