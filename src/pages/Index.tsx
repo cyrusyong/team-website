@@ -88,6 +88,7 @@ const Index = () => {
                 <Layout className="w-6 h-6 text-foreground" />
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-foreground">About Page</h3>
+                  <img src="src/pages/images/about.png" alt="About Page" />
                   <p className="text-muted-foreground">Learn more about our platform, our mission to provide seamless movie ticket booking experiences, and how we're revolutionizing the way you enjoy cinema. Discover our story and what makes us unique in the movie ticketing industry.</p>
                 </div>
               </div>
@@ -98,6 +99,7 @@ const Index = () => {
                 <Film className="w-6 h-6 text-foreground" />
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-foreground">Movies List</h3>
+                  <img src="src/pages/images/movielist.png" alt="Movies List" />
                   <p className="text-muted-foreground">Browse our extensive collection of movies, from latest releases to timeless classics. Use our advanced filtering system to find movies by genre, release date, or ratings. View detailed information, trailers, and user reviews for each movie.</p>
                 </div>
               </div>
@@ -108,6 +110,7 @@ const Index = () => {
                 <ShoppingCart className="w-6 h-6 text-foreground" />
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-foreground">Cart Page</h3>
+                  <img src="src/pages/images/cart.png" alt="Cart Page" />
                   <p className="text-muted-foreground">Review your selected movie tickets, choose your preferred showtime and seating options, and proceed to a secure checkout. Our cart system provides real-time updates and maintains your selections until you're ready to complete your purchase.</p>
                 </div>
               </div>
@@ -118,6 +121,7 @@ const Index = () => {
                 <Clock className="w-6 h-6 text-foreground" />
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-foreground">Past Orders</h3>
+                  <img src="src/pages/images/orderhistory.png" alt="Order History" />
                   <p className="text-muted-foreground">Access your complete order history, view past movie tickets, and download digital tickets whenever needed. Keep track of your movie-watching journey and easily reference your previous bookings for future purchases.</p>
                 </div>
               </div>
@@ -128,6 +132,8 @@ const Index = () => {
                 <UserCircle className="w-6 h-6 text-foreground" />
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-foreground">Login / Sign Up</h3>
+                  <img src="src/pages/images/login.png" alt="Login Page" />
+                  <img src="src/pages/images/signup.png" alt="Sign Up Page" />
                   <p className="text-muted-foreground">Create your personal account to unlock the full potential of our platform. Enjoy features like order tracking, saved preferences, and the ability to leave movie reviews. Simple and secure authentication process for a hassle-free experience.</p>
                 </div>
               </div>
