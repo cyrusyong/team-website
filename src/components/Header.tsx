@@ -2,34 +2,56 @@
 import { motion } from "framer-motion";
 
 export const Header = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-6 py-4">
         <ul className="flex items-center justify-center space-x-8">
           <li>
-            <a href="#overview" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <button
+              onClick={() => scrollToSection("overview")}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
               Overview
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#team" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <button
+              onClick={() => scrollToSection("team")}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
               Team
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <button
+              onClick={() => scrollToSection("features")}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
               Features
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#process" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <button
+              onClick={() => scrollToSection("process")}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
               Process
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#demo" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <button
+              onClick={() => scrollToSection("demo")}
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
               Demo
-            </a>
+            </button>
           </li>
         </ul>
       </nav>
