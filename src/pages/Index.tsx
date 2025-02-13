@@ -1,3 +1,4 @@
+
 import { Header } from "@/components/Header";
 import { TeamMember } from "@/components/TeamMember";
 import { Card } from "@/components/ui/card";
@@ -89,7 +90,7 @@ const Index = () => {
 
       {/* Features Section */}
       <section id="features" className="py-20 bg-background px-6">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-6xl">
           <motion.h2 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -98,70 +99,72 @@ const Index = () => {
           >
             Features & Functionality
           </motion.h2>
-          <div className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
-              <div className="flex items-start space-x-4">
-                <Layout className="w-6 h-6 text-foreground" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-foreground">About Page</h3>
-                  <img src="src/pages/images/about.png" alt="About Page" />
-                  <p className="text-muted-foreground">
-                    Learn more about our platform, our mission to provide seamless movie ticket booking experiences, and how we're revolutionizing the way you enjoy cinema. Discover our story and what makes us unique in the movie ticketing industry.
-                  </p>
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center space-x-3">
+                  <Layout className="w-6 h-6 text-foreground" />
+                  <h3 className="text-xl font-semibold text-foreground">About Page</h3>
                 </div>
+                <img src="src/pages/images/about.png" alt="About Page" className="w-full rounded-lg" />
+                <p className="text-muted-foreground">
+                  Learn more about our platform, our mission to provide seamless movie ticket booking experiences, and how we're revolutionizing the way you enjoy cinema.
+                </p>
               </div>
             </Card>
 
             <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
-              <div className="flex items-start space-x-4">
-                <Film className="w-6 h-6 text-foreground" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-foreground">Movies List</h3>
-                  <img src="src/pages/images/movielist.png" alt="Movies List" />
-                  <p className="text-muted-foreground">
-                    Browse our extensive collection of movies, from latest releases to timeless classics. Use our advanced filtering system to find movies by genre, release date, or ratings. View detailed information, trailers, and user reviews for each movie.
-                  </p>
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center space-x-3">
+                  <Film className="w-6 h-6 text-foreground" />
+                  <h3 className="text-xl font-semibold text-foreground">Movies List</h3>
                 </div>
+                <img src="src/pages/images/movielist.png" alt="Movies List" className="w-full rounded-lg" />
+                <p className="text-muted-foreground">
+                  Browse our extensive collection of movies, from latest releases to timeless classics. Use our advanced filtering system to find movies by genre, release date, or ratings.
+                </p>
               </div>
             </Card>
 
             <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
-              <div className="flex items-start space-x-4">
-                <ShoppingCart className="w-6 h-6 text-foreground" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-foreground">Cart Page</h3>
-                  <img src="src/pages/images/cart.png" alt="Cart Page" />
-                  <p className="text-muted-foreground">
-                    Review your selected movie tickets, choose your preferred showtime and seating options, and proceed to a secure checkout. Our cart system provides real-time updates and maintains your selections until you're ready to complete your purchase.
-                  </p>
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center space-x-3">
+                  <ShoppingCart className="w-6 h-6 text-foreground" />
+                  <h3 className="text-xl font-semibold text-foreground">Cart Page</h3>
                 </div>
+                <img src="src/pages/images/cart.png" alt="Cart Page" className="w-full rounded-lg" />
+                <p className="text-muted-foreground">
+                  Review your selected movie tickets, choose your preferred showtime and seating options, and proceed to a secure checkout.
+                </p>
               </div>
             </Card>
 
             <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
-              <div className="flex items-start space-x-4">
-                <Clock className="w-6 h-6 text-foreground" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-foreground">Past Orders</h3>
-                  <img src="src/pages/images/orderhistory.png" alt="Order History" />
-                  <p className="text-muted-foreground">
-                    Access your complete order history, view past movie tickets, and download digital tickets whenever needed. Keep track of your movie-watching journey and easily reference your previous bookings for future purchases.
-                  </p>
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center space-x-3">
+                  <Clock className="w-6 h-6 text-foreground" />
+                  <h3 className="text-xl font-semibold text-foreground">Past Orders</h3>
                 </div>
+                <img src="src/pages/images/orderhistory.png" alt="Order History" className="w-full rounded-lg" />
+                <p className="text-muted-foreground">
+                  Access your complete order history, view past movie tickets, and download digital tickets whenever needed.
+                </p>
               </div>
             </Card>
 
             <Card className="p-6 bg-secondary hover:bg-secondary/80 transition-colors">
-              <div className="flex items-start space-x-4">
-                <UserCircle className="w-6 h-6 text-foreground" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-foreground">Login / Sign Up</h3>
-                  <img src="src/pages/images/login.png" alt="Login Page" />
-                  <img src="src/pages/images/signup.png" alt="Sign Up Page" />
-                  <p className="text-muted-foreground">
-                    Create your personal account to unlock the full potential of our platform. Enjoy features like order tracking, saved preferences, and the ability to leave movie reviews. Simple and secure authentication process for a hassle-free experience.
-                  </p>
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center space-x-3">
+                  <UserCircle className="w-6 h-6 text-foreground" />
+                  <h3 className="text-xl font-semibold text-foreground">Login / Sign Up</h3>
                 </div>
+                <div className="space-y-2">
+                  <img src="src/pages/images/login.png" alt="Login Page" className="w-full rounded-lg" />
+                  <img src="src/pages/images/signup.png" alt="Sign Up Page" className="w-full rounded-lg" />
+                </div>
+                <p className="text-muted-foreground">
+                  Create your personal account to unlock the full potential of our platform. Simple and secure authentication process.
+                </p>
               </div>
             </Card>
           </div>
