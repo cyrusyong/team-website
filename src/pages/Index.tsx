@@ -198,7 +198,7 @@ const Index = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  src="/src/pages/images/scrum_process.png"
+                  src="/src/pages/images/scrum_process.jpg"
                   alt="Scrum Process Image"
                   className="rounded-lg shadow-lg"
                 />
@@ -223,7 +223,7 @@ const Index = () => {
                   transition={{ duration: 0.5 }}
                   src="src/pages/images/development.png"
                   alt="Development phase"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg"
                 />
               </div>
             </div>
@@ -246,9 +246,9 @@ const Index = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  src="src/pages/images/development.png"
+                  src="src/pages/images/tool.jpg"
                   alt="Project Management"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg"
                 />
               </div>
             </div>
