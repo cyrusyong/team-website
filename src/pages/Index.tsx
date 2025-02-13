@@ -18,7 +18,7 @@ const Index = () => {
       role: "Back End Developer",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?fit=crop&w=800&h=800",
-      bio: "I was involved with creating functionality for users to add, edit, remove, and view reviews. I also created a shopping cart and an orders page, which allowed users to add movies to their cart, view and clear the cart, purchase movis, as well as view their orders.",
+      bio: "I was involved with creating functionality for users to add, edit, remove, and view reviews. I also created a shopping cart and an orders page, which allowed users to add movies to their cart, view and clear the cart, purchase movies, as well as view their orders.",
     },
     {
       name: "Cat Tien",
@@ -32,7 +32,7 @@ const Index = () => {
       role: "Full Stack Developer",
       image:
         "https://images.unsplash.com/photo-1498050108023-c5249f4df085?fit=crop&w=800&h=800",
-      bio: "Brief description about team member 4 and their contributions to the project.",
+      bio: "I was involved in creating the base template for the rest of the website. I also implemented the layout for the login and sign up pages. I also created the home page and the about page.",
     },
   ];
 
