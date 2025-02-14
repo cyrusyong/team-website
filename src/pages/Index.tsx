@@ -11,7 +11,7 @@ const Index = () => {
       role: "Front End Developer",
       image:
         "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?fit=crop&w=800&h=800",
-      bio: "Brief description about team member 1 and their contributions to the project.",
+      bio: "I was involved with helping create the shopping cart page, which allowed users to add movies to the cart and view the contents of the cart. I also made the website be accessible to anyone on the cloud, as well as on mobile devices.",
     },
     {
       name: "Sai",
@@ -371,19 +371,25 @@ const Index = () => {
               src="/Demo.mp4"
               className="w-full h-full"
               onClick={() => {
-                const video = document.getElementById('demoVideo') as HTMLVideoElement;
-                const playButton = document.getElementById('playButton')!;
+                const video = document.getElementById(
+                  "demoVideo"
+                ) as HTMLVideoElement;
+                const playButton = document.getElementById("playButton")!;
                 if (video.paused) {
                   video.play();
-                  playButton.style.display = 'none';
+                  playButton.style.display = "none";
                 } else {
                   video.pause();
-                  playButton.style.display = 'flex';
+                  playButton.style.display = "flex";
                 }
               }}
               onTimeUpdate={() => {
-                const video = document.getElementById('demoVideo') as HTMLVideoElement;
-                const progressBar = document.getElementById('progressBar') as HTMLDivElement;
+                const video = document.getElementById(
+                  "demoVideo"
+                ) as HTMLVideoElement;
+                const progressBar = document.getElementById(
+                  "progressBar"
+                ) as HTMLDivElement;
                 const progress = (video.currentTime / video.duration) * 100;
                 progressBar.style.width = `${progress}%`;
               }}
@@ -392,10 +398,12 @@ const Index = () => {
               id="playButton"
               className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-4xl"
               onClick={() => {
-                const video = document.getElementById('demoVideo') as HTMLVideoElement;
+                const video = document.getElementById(
+                  "demoVideo"
+                ) as HTMLVideoElement;
                 if (video.paused) {
                   video.play();
-                  document.getElementById('playButton')!.style.display = 'none';
+                  document.getElementById("playButton")!.style.display = "none";
                 }
               }}
             >
@@ -405,8 +413,12 @@ const Index = () => {
               id="progressContainer"
               className="absolute bottom-0 left-0 right-0 h-2 bg-gray-700 cursor-pointer"
               onClick={(e) => {
-                const video = document.getElementById('demoVideo') as HTMLVideoElement;
-                const progressContainer = document.getElementById('progressContainer') as HTMLDivElement;
+                const video = document.getElementById(
+                  "demoVideo"
+                ) as HTMLVideoElement;
+                const progressContainer = document.getElementById(
+                  "progressContainer"
+                ) as HTMLDivElement;
                 const rect = progressContainer.getBoundingClientRect();
                 const offsetX = e.clientX - rect.left;
                 const newTime = (offsetX / rect.width) * video.duration;
@@ -416,7 +428,7 @@ const Index = () => {
               <div
                 id="progressBar"
                 className="h-full bg-blue-500"
-                style={{ width: '0%' }}
+                style={{ width: "0%" }}
               ></div>
             </div>
           </div>
