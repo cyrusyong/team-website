@@ -108,7 +108,7 @@ const Index = () => {
                   </h3>
                 </div>
                 <img
-                  src="src/pages/images/about.png"
+                  src="about.png"
                   alt="About Page"
                   className="w-full rounded-lg"
                 />
@@ -129,7 +129,7 @@ const Index = () => {
                   </h3>
                 </div>
                 <img
-                  src="src/pages/images/movielist.png"
+                  src="movielist.png"
                   alt="Movies List"
                   className="w-full rounded-lg"
                 />
@@ -150,7 +150,7 @@ const Index = () => {
                   </h3>
                 </div>
                 <img
-                  src="src/pages/images/cart.png"
+                  src="cart.png"
                   alt="Cart Page"
                   className="w-full rounded-lg"
                 />
@@ -171,7 +171,7 @@ const Index = () => {
                   </h3>
                 </div>
                 <img
-                  src="src/pages/images/orderhistory.png"
+                  src="orderhistory.png"
                   alt="Order History"
                   className="w-full rounded-lg"
                 />
@@ -192,7 +192,7 @@ const Index = () => {
                 </div>
                 <div className="space-y-2">
                   <img
-                    src="src/pages/images/login.png"
+                    src="login.png"
                     alt="Login Page"
                     className="w-full rounded-lg"
                   />
@@ -214,7 +214,7 @@ const Index = () => {
                 </div>
                 <div className="space-y-2">
                   <img
-                    src="src/pages/images/signup.png"
+                    src="/signup.png"
                     alt="Sign Up Page"
                     className="w-full rounded-lg"
                   />
@@ -266,7 +266,7 @@ const Index = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  src="/src/pages/images/scrum_process.jpg"
+                  src="/scrum_process.jpg"
                   alt="Scrum Process Image"
                   className="rounded-lg shadow-lg"
                 />
@@ -311,7 +311,7 @@ const Index = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  src="src/pages/images/development.png"
+                  src="development.png"
                   alt="Development phase"
                   className="rounded-lg"
                 />
@@ -349,7 +349,7 @@ const Index = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  src="src/pages/images/tool.jpg"
+                  src="tool.jpg"
                   alt="Project Management"
                   className="rounded-lg"
                 />
@@ -368,7 +368,7 @@ const Index = () => {
           <div className="aspect-video bg-secondary rounded-lg flex items-center justify-center relative">
             <video
               id="demoVideo"
-              src="/src/pages/images/Demo.mp4"
+              src="/Demo.mp4"
               className="w-full h-full"
               onClick={() => {
                 const video = document.getElementById('demoVideo') as HTMLVideoElement;
