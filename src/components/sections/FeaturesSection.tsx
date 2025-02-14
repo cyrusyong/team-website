@@ -22,7 +22,7 @@ export const FeaturesSection = () => {
                 <Layout className="w-6 h-6 text-foreground" />
                 <h3 className="text-xl font-semibold text-foreground">About Page</h3>
               </div>
-              <img src="src/pages/images/about.png" alt="About Page" className="w-full rounded-lg" />
+              <img src="/images/about.png" alt="About Page" className="w-full rounded-lg" />
               <p className="text-muted-foreground">
                 Learn more about our platform, our mission to provide seamless movie ticket booking experiences, and how we're revolutionizing the way you enjoy cinema.
               </p>
@@ -35,7 +35,7 @@ export const FeaturesSection = () => {
                 <Film className="w-6 h-6 text-foreground" />
                 <h3 className="text-xl font-semibold text-foreground">Movies List</h3>
               </div>
-              <img src="src/pages/images/movielist.png" alt="Movies List" className="w-full rounded-lg" />
+              <img src="/images/movielist.png" alt="Movies List" className="w-full rounded-lg" />
               <p className="text-muted-foreground">
                 Browse our extensive collection of movies, from latest releases to timeless classics. Use our advanced filtering system to find movies by genre, release date, or ratings.
               </p>
@@ -48,7 +48,7 @@ export const FeaturesSection = () => {
                 <ShoppingCart className="w-6 h-6 text-foreground" />
                 <h3 className="text-xl font-semibold text-foreground">Cart Page</h3>
               </div>
-              <img src="src/pages/images/cart.png" alt="Cart Page" className="w-full rounded-lg" />
+              <img src="/images/cart.png" alt="Cart Page" className="w-full rounded-lg" />
               <p className="text-muted-foreground">
                 Review your selected movie tickets, choose your preferred showtime and seating options, and proceed to a secure checkout.
               </p>
@@ -61,7 +61,7 @@ export const FeaturesSection = () => {
                 <Clock className="w-6 h-6 text-foreground" />
                 <h3 className="text-xl font-semibold text-foreground">Past Orders</h3>
               </div>
-              <img src="src/pages/images/orderhistory.png" alt="Order History" className="w-full rounded-lg" />
+              <img src="/images/orderhistory.png" alt="Order History" className="w-full rounded-lg" />
               <p className="text-muted-foreground">
                 Access your complete order history, view past movie tickets, and download digital tickets whenever needed.
               </p>
@@ -75,8 +75,8 @@ export const FeaturesSection = () => {
                 <h3 className="text-xl font-semibold text-foreground">Login / Sign Up</h3>
               </div>
               <div className="space-y-2">
-                <img src="src/pages/images/login.png" alt="Login Page" className="w-full rounded-lg" />
-                <img src="src/pages/images/signup.png" alt="Sign Up Page" className="w-full rounded-lg" />
+                <img src="/images/login.png" alt="Login Page" className="w-full rounded-lg" />
+                <img src="/images/signup.png" alt="Sign Up Page" className="w-full rounded-lg" />
               </div>
               <p className="text-muted-foreground">
                 Create your personal account to unlock the full potential of our platform. Simple and secure authentication process.

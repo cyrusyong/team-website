@@ -32,7 +32,7 @@ export const ProcessSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                src="/src/pages/images/scrum_process.jpg"
+                src="/images/scrum_process.jpg"
                 alt="Scrum Process Image"
                 className="rounded-lg shadow-lg"
               />
@@ -55,7 +55,7 @@ export const ProcessSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                src="src/pages/images/development.png"
+                src="/images/development.png"
                 alt="Development phase"
                 className="rounded-lg shadow-lg"
               />
@@ -80,7 +80,7 @@ export const ProcessSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                src="src/pages/images/tool.jpg"
+                src="/images/tool.jpg"
                 alt="Project Management"
                 className="rounded-lg shadow-lg"
               />
